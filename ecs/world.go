@@ -1,8 +1,9 @@
-package main
+package ecs
 
 import (
 	"sync"
 
+	"github.com/RAshkettle/termhack/factories"
 	"github.com/yohamta/donburi"
 )
 
@@ -22,6 +23,6 @@ func GetWorld() donburi.World {
 
 func SpawnNewWorld() {
 	world := GetWorld()
-
+	factories.SpawnNewPlayer(world)
 	//
 }

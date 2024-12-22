@@ -1,4 +1,4 @@
-package main
+package ecs
 
 import (
 	"testing"
@@ -6,5 +6,4 @@ import (
 
 func TestSpawnNewWorld(t *testing.T) {
 	// Add test here
-
 }
