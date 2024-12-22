@@ -1,4 +1,4 @@
-package main
+package systems
 
 //This will be for all rendering to screen.
 //This is done via bubbletea
