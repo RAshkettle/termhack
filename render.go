@@ -10,7 +10,10 @@ import (
 
 // This struct will contain all the renderable data that we need to show on the screen.
 type RenderModel struct {
-	maptiles []string
+	Maptiles []string
+	Items    []string
+	Monsters []string
+	Player   string
 }
 
 // This function does not get called but it necessary for the interface
@@ -35,6 +38,9 @@ func (r RenderModel) View() string {
 // Simple New Pattern to create our model.
 func NewRenderModel() RenderModel {
 	return RenderModel{
-		maptiles: []string{},
+		Maptiles: []string{},
+		Items:    []string{},
+		Monsters: []string{},
+		Player:   "",
 	}
 }

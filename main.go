@@ -15,5 +15,4 @@ func main() {
 		fmt.Printf("Error Initializing Game: %v", err)
 		os.Exit(1)
 	}
-	// TODO:  Set up rest of the world and start
 }
